@@ -1,0 +1,40 @@
+.search-main {
+    width: 100%;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.search-main__block {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.search-main__block > span {
+    margin: 0 auto;
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    font-weight: 200;
+    font-size: 28px;
+    /* text-transform: uppercase; */
+}
+
+.search-main__search {
+    margin-bottom: 50px;
+}
+
+.search-main__search > .input {
+    margin-right: 10px;
+}
+
+.search-main__default {
+    width: 100vw;
+    height: calc(100vh - 270px - 80px);
+    background: url(../../assets/films.jpg) center / cover no-repeat;
+}

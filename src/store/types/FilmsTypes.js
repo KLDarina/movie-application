@@ -1,0 +1,5 @@
+export const FilmsTypes = {
+    SET_LOADING: 'SET_LOADING',
+    GET_FILMS_SUCCESS: 'GET_FILMS_SUCCESS',
+    GET_FILMS_ERROR: 'GET_FILMS_ERROR'
+}

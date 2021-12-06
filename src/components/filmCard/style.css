@@ -1,0 +1,107 @@
+.film-card {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    display: inline-block;
+    transition: all 0.3s ease-in-out;
+    overflow: hidden;
+}
+
+.film-button {
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 4;
+}
+
+.film-card:hover > .film-button {
+    opacity: 1;
+}
+
+/* .film-card:hover > .film-photo {
+    transform: scale(1.2);
+} */
+
+.film-card:hover > .film-photo::after {
+    background: linear-gradient(180deg, rgba(29, 29, 29, 0.8) 100%, rgba(29, 29, 29, 0.8) 100%);
+}
+
+.film-photo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    transform: scale(1);
+    transition: all 0.3s ease-in-out;
+}
+
+.film-photo:after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: linear-gradient(180deg, rgba(29, 29, 29, 0) 0%, rgba(29, 29, 29, 0.8) 80.79%);
+    z-index: 2;
+    transition: all 0.3s ease-in-out;
+}
+
+.film-content {
+    position: absolute;
+    bottom: 24px;
+    left: 24px;
+    right: 24px;
+    z-index: 3;
+}
+
+.film-name {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    color: #ffffff;
+    font-family: "Montserrat", sans-serif;
+}
+
+.film-genres {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.film-genre {
+    padding: 4px 8px;
+    border-radius: 0px 8px;
+    background: rgba(29, 29, 29, 0.5);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    font-family: "Montserrat", sans-serif;
+    color: #0feffd;
+    margin: 5px;
+}
+
+.film-date {
+    z-index: 3;
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 16px;
+    color: #e10856;
+    border-radius: 8px 0px;
+    background: rgba(255, 255, 255, 0.5);
+    padding: 4px 8px;
+}

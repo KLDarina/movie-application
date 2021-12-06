@@ -1,0 +1,7 @@
+@import "https://unpkg.com/antd@4.17.0-alpha.9/dist/antd.css";
+@import "~antd/dist/antd.css";
+
+body {
+  background: #1d1d1d;
+  overflow-x: hidden;
+}

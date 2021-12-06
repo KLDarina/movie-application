@@ -1,0 +1,28 @@
+.page-not-found {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #545454;
+}
+
+.page-not-found__img {
+  width: 300px;
+}
+
+.page-not-found__text {
+  margin: 10px 0 5px;
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  font-weight: 500;
+  font-size: 28px;
+}
+.page-not-found__untext {
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  font-weight: 200;
+  font-size: 22px;
+  margin-bottom: 20px;
+}

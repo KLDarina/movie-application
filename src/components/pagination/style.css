@@ -1,0 +1,23 @@
+.ant-pagination-item-active {
+    border-color: #0feffd!important;
+}
+
+.ant-pagination-item-active a {
+    color: #0feffd!important;
+}
+
+.ant-pagination-item-active:focus-visible,
+.ant-pagination-item-active:hover {
+    border-color: #0feffd!important;
+}
+
+.ant-pagination-item-active:focus-visible a,
+.ant-pagination-item-active:hover a {
+    color: #0feffd!important;
+}
+
+.ant-pagination-jump-prev .ant-pagination-item-container .ant-pagination-item-ellipsis,
+.ant-pagination-jump-next .ant-pagination-item-container .ant-pagination-item-ellipsis,
+.ant-pagination-options-quick-jumper {
+    color: #0feffd!important;
+}

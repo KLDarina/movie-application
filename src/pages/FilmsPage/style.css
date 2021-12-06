@@ -1,0 +1,88 @@
+.films-main {
+    width: 100%;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.films-main__title {
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    font-weight: 200;
+    font-size: 28px;
+    text-transform: uppercase;
+}
+
+.films-main__block {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.films-main__item {
+    width: calc(100% / 4 - 20px);
+    height: 400px;
+    margin: 10px;
+}
+
+.films-main__filters {
+    padding: 10px;
+    height: 100vh;
+    background: rgba(15, 239, 253, 0.5);
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.films-main__filters > span {
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    font-weight: 200;
+    font-size: 16px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transform: rotate(-180deg);
+    writing-mode: tb-rl;
+}
+
+.ant-drawer-content,
+.ant-drawer-header {
+    background: rgba(15, 239, 253, 1)!important;
+}
+
+.ant-drawer-right.ant-drawer-open .ant-drawer-content-wrapper {
+    width: 400px !important;
+}
+
+.ant-drawer-title {
+    font-family: "Montserrat", sans-serif!important;
+    color: white!important;
+    font-weight: 500!important;
+    font-size: 22px!important;
+    text-transform: uppercase!important;
+}
+
+.filters__title {
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    font-weight: 200;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-right: 20px;
+}
+
+.filters__row {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 20px;
+}

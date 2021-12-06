@@ -1,0 +1,8 @@
+.favourites-empty {
+    margin: 100px auto;
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    font-weight: 200;
+    font-size: 16px;
+    text-transform: uppercase;
+}

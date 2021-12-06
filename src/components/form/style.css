@@ -1,0 +1,15 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 50px;
+    border-radius: 50px;
+    box-shadow: 0px 16px 16px 4px rgba(0, 0, 0, 0.12);
+    background: #1d1d1d;
+}
+
+.form__title {
+    color: #0FEFFD;
+    font-family: "Montserrat", sans-serif;
+}
